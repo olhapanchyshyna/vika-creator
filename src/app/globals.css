@@ -9,3 +9,7 @@
 .main-green-bg{
   background-color: #50584B
 }
+
+.green-gradient{
+  background: linear-gradient(to bottom, #50584B 0%, #8a8e8d 100%);
+}

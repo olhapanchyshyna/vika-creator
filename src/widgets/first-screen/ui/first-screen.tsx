@@ -37,10 +37,6 @@ export default function FirstScreen() {
 				<div className='rounded-lg bg-[#E1A421] mt-[40px] w-[200px] py-[20px] px-[30px] text-center text-[30px]'>
 					280 грн
 				</div>
-				<div className='mt-[100px] text-[18px] w-[400px] '>
-					<span className='text-[#E1A421] font-bold'>Бонус!</span> робочий зошит{' '}
-					{'Як розпакувати свою супер силу та автентичність'}
-				</div>
 			</div>
 		</section>
 	)
