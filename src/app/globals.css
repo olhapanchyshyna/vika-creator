@@ -13,3 +13,7 @@
 .green-gradient{
   background: linear-gradient(to bottom, #50584B 0%, #8a8e8d 100%);
 }
+
+.container{
+  max-width: 1600px
+}

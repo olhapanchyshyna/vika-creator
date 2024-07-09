@@ -1,21 +1,15 @@
+import MainTitle from '@/entities/main-title/ui/main-title'
+import { Raleway } from 'next/font/google'
 import Image from 'next/image'
-import { Raleway } from "next/font/google";
 
-const raleway = Raleway({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ['latin'] })
 
 export default function FirstScreen() {
 	return (
-		<section className='main-green-bg h-[100vh] bg-cover bg-no-repeat bg-center flex text-white items-center pr-[60px]'>
-			{/* <Image
-				src='/test.png'
-				className='!relative h-full !w-[650px]'
-				alt='main'
-				fill
-				style={{ objectFit: 'cover', objectPosition: 'center' }}
-			/> */}
+		<section className='container main-green-bg h-[100vh] bg-cover bg-no-repeat bg-center flex text-white items-center pr-[60px]'>
 			<div className='h-full relative w-[600px]'>
 				<Image
-					src='/test.png'
+					src='/first-screen.png'
 					className='!absolute bottom-0'
 					alt='main'
 					width={600}
@@ -23,16 +17,16 @@ export default function FirstScreen() {
 				/>
 			</div>
 
-			<div className='w-[700px] justify-end text-white ml-[40px]'>
+			<div className='w-[800px] justify-end text-white ml-[40px]'>
 				<div className='text-[30px] mb-[20px] font-bold'>Старт 17 липня</div>
-				<h1 className={`text-[46px] text-[#E1A421] font-bold uppercase  ${raleway.className}`}>
-					Експрес курс:
-					<br />
-					<span className=' text-white font-bold lowercase'>
-						Як багатопрофільному експерту знайти свій напрямок та почати на
-						цьому заробляти?
-					</span>
-				</h1>
+				<MainTitle text='Експрес курс:' className='text-[#E1A421]'/>
+				<br />
+				<MainTitle
+					text='Як багатопрофільному експерту знайти свій напрямок та почати на
+						цьому заробляти?'
+					className='leading-[62px] !text-[60px]'
+				/>
+
 				<div className='mt-[60px] text-[30px] w-[500px] '>
 					3 уроки, які допоможуть знайти сильні сторони та почати заробляти на
 					них
