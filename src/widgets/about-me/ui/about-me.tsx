@@ -33,7 +33,7 @@ export default function AboutMe() {
 						src='/about-me.jpg'
 						width={500}
 						height={600}
-						alt=''
+						alt='me'
 						className='w-[700px] h-auto ml-[30px]'
 					/>
 				</div>

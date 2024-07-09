@@ -1,8 +1,5 @@
 import MainTitle from '@/entities/main-title/ui/main-title'
-import { Raleway } from 'next/font/google'
 import Image from 'next/image'
-
-const raleway = Raleway({ subsets: ['latin'] })
 
 export default function FirstScreen() {
 	return (
@@ -18,8 +15,8 @@ export default function FirstScreen() {
 			</div>
 
 			<div className='w-[800px] justify-end text-white ml-[40px]'>
-				<div className='text-[30px] mb-[20px] font-bold'>Старт 17 липня</div>
-				<MainTitle text='Експрес курс:' className='text-[#E1A421]'/>
+				<div className='text-[35px] mb-[40px] font-bold'>Старт 17 липня</div>
+				<MainTitle text='Експрес курс:' className='text-[#E1A421]' />
 				<br />
 				<MainTitle
 					text='Як багатопрофільному експерту знайти свій напрямок та почати на
