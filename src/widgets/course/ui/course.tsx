@@ -24,49 +24,48 @@ export default function Course() {
 					className='text-[#e1a421] text-center !text-[40px]'
 				/>
 
-				<div className='flex flex-col justify-center mt-[100px] items-center text-center'>
-					<Image
-						src='/marker.png'
-						width={500}
-						height={10}
-						alt=''
-						className='h-[10px]'
-					/>
-					<div className='text-[30px] max-w-[700px] w-[100%] py-[30px]'>
-						{' '}
-						Виявити свої сильні сторони, особисті і професійні та знайти свій
-						напрямок
+				<div className='flex flex-col justify-center mt-[100px] items-center '>
+					<div className='flex'>
+						<Image
+							src='/check-mark.png'
+							width={40}
+							height={40}
+							alt='check-mark'
+							className='h-[40px] mr-[10px] mt-[7px]'
+						/>
+						<div className='text-[30px] max-w-[680px] w-[100%] pb-[52px] pl-[10px]'>
+							{' '}
+							Виявити свої сильні сторони, особисті і професійні та знайти свій
+							напрямок
+						</div>
 					</div>
-					<Image
-						src='/marker.png'
-						width={500}
-						height={10}
-						alt=''
-						className='h-[10px]'
-					/>
-					<div className='text-[30px] max-w-[700px] w-[100%] py-[30px]'>
-						{' '}
-						Почати цінувати себе та збільшити прайс на послуги і продукти
+					<div className='flex'>
+						<Image
+							src='/check-mark.png'
+							width={40}
+							height={40}
+							alt='check-mark'
+							className='h-[40px] mr-[10px] mt-[7px]'
+						/>
+						<div className='text-[30px] max-w-[680px] w-[100%] pb-[52px] pl-[10px]'>
+							{' '}
+							Почати цінувати себе та збільшити прайс на послуги і продукти
+						</div>
 					</div>
-					<Image
-						src='/marker.png'
-						width={500}
-						height={10}
-						alt=''
-						className='h-[10px]'
-					/>
-					<div className='text-[30px] max-w-[700px] w-[100%] py-[30px]'>
-						{' '}
-						Запусти курс або менторство і збільшити свій дохід в в 2-3 рази
-						більше
+					<div className='flex'>
+						<Image
+							src='/check-mark.png'
+							width={40}
+							height={40}
+							alt='check-mark'
+							className='h-[40px] mr-[10px] mt-[7px]'
+						/>
+						<div className='text-[30px] max-w-[680px] w-[100%] pb-[52px] pl-[10px]'>
+							{' '}
+							Запусти курс або менторство і збільшити свій дохід в в 2-3 рази
+							більше
+						</div>
 					</div>
-					<Image
-						src='/marker.png'
-						width={500}
-						height={10}
-						alt=''
-						className='h-[10px]'
-					/>
 				</div>
 			</div>
 		</section>
