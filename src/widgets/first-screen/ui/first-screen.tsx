@@ -28,7 +28,7 @@ export default function FirstScreen() {
 					3 уроки, які допоможуть знайти сильні сторони та почати заробляти на
 					них
 				</div>
-				<div className='rounded-lg bg-[#E1A421] mt-[40px] w-[200px] py-[20px] px-[30px] text-center text-[40px]'>
+				<div className='rounded-lg bg-[#E1A421] mt-[40px] w-[240px] py-[20px] px-[30px] text-center text-[40px]'>
 					280 грн
 				</div>
 			</div>

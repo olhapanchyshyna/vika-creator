@@ -1,4 +1,11 @@
 import MainTitle from '@/entities/main-title/ui/main-title'
+import {
+	Carousel,
+	CarouselContent,
+	CarouselItem,
+	CarouselNext,
+	CarouselPrevious,
+} from '@/shared/ui/ui/carousel'
 import Image from 'next/image'
 
 export default function Reviews() {
@@ -8,24 +15,75 @@ export default function Reviews() {
 				<MainTitle text='Відгуки' className='text-center mb-[100px]' />
 				<div>
 					
-					<div className='flex justify-between'>
-						<Image
-							src='/about-me.jpg'
-							width={500}
-							height={10}
-							alt=''
-							className='m-auto my-[50px]'
-						/>
-						<Image
-							src='/about-me.jpg'
-							width={500}
-							height={10}
-							alt=''
-							className='m-auto  my-[50px]'
-						/>
+					<div className='m-auto mt-[60px] flex '>
+						<Carousel
+							className='m-auto rounded-[40px] '
+							opts={{
+								align: 'start',
+							}}
+						>
+							<CarouselContent className='w-[800px]'>
+								<CarouselItem className=' '>
+									<Image
+										src='/rev-1.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+								<CarouselItem className=' '>
+									<Image
+										src='/rev-2.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+								<CarouselItem className=' '>
+									<Image
+										src='/rev-3.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+								<CarouselItem className=' '>
+									<Image
+										src='/rev-4.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+								<CarouselItem className=' '>
+									<Image
+										src='/rev-5.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+								<CarouselItem className=' '>
+									<Image
+										src='/rev-6.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+							</CarouselContent>
+							<CarouselPrevious />
+							<CarouselNext />
+						</Carousel>
 					</div>
 
-					<div className='text-white text-[30px] font-bold'>
+					<div className='text-white text-[30px] font-bold mt-[100px]'>
 						Єдине, що вас відрізняє від інших експертів це ваші природні таланти
 						(супер сила) та ваш унікальний досвід. Але коли у вас багато
 						дипломів, навичок, експретизи в різниз напрямках важко визначитися з
