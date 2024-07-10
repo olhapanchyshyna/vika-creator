@@ -14,7 +14,6 @@ export default function Reviews() {
 			<div className='container'>
 				<MainTitle text='Відгуки' className='text-center mb-[100px]' />
 				<div>
-					
 					<div className='m-auto mt-[60px] flex '>
 						<Carousel
 							className='m-auto rounded-[40px] '
@@ -53,15 +52,6 @@ export default function Reviews() {
 								<CarouselItem className=' '>
 									<Image
 										src='/rev-4.jpeg'
-										className='h-auto'
-										alt='rev'
-										width={800}
-										height={600}
-									/>
-								</CarouselItem>
-								<CarouselItem className=' '>
-									<Image
-										src='/rev-5.jpeg'
 										className='h-auto'
 										alt='rev'
 										width={800}
