@@ -12,7 +12,7 @@ export default function MainTitle({ text, className }: MainTitleProps) {
 	return (
 		<h2
 			className={cn(
-				`text-[36px] lg:text-[65px] text-white font-bold leading-[35px] uppercase ${raleway.className}`,
+				`text-[46px] 2xl:text-[65px] text-white leading-[42px] font-bold 2xl:leading-[43px] uppercase ${raleway.className}`,
 				className
 			)}
 		>

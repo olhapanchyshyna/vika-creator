@@ -13,7 +13,7 @@ export default function Course() {
 					className='text-black text-center mb-[30px]'
 				/>
 				<h2
-					className={`text-[36px] lg:text-[65px] text-black text-center font-bold leading-[35px] uppercase mb-[70px] ${raleway.className}`}
+					className={`text-[36px] lg:text-[65px] text-black text-center font-bold uppercase mb-[70px] ${raleway.className}`}
 				>
 					<span className='text-[#e1a421] text-[75px] ml-[10px]'>3 </span>
 					річного досвіду

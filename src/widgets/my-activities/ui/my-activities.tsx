@@ -4,7 +4,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 
 export default function MyActivities() {
 	return (
-		<section className='py-[100px]'>
+		<section className='2xl:py-[100px] py-[80px]'>
 			<div className='container'>
 				<MainTitle text='Моя діяльність в цифрах' className='text-center' />
 
@@ -13,33 +13,33 @@ export default function MyActivities() {
 						{/* 1 */}
 						<div className='max-w-[400px] w-[100%]'>
 							<div
-								className={`text-center text-[100px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
+								className={`text-center 2xl:text-[100px] text-[70px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
 							>
 								8
 							</div>
-							<div className='text-center text-[34px] text-white leading-[normal]'>
+							<div className='text-center text-[28px] text-white leading-[normal]'>
 								років в сфері маркетингу, мала власну СММ агенцію
 							</div>
 						</div>
 						{/* 2 */}
-						<div className='max-w-[460px] w-[100%]'>
+						<div className='2xl:max-w-[460px] max-w-[360px] w-[100%]'>
 							<div
-								className={`text-center text-[100px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
+								className={`text-center 2xl:text-[100px] text-[70px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
 							>
 								100 0000
 							</div>
-							<div className='text-center text-[34px] text-white leading-[normal]'>
+							<div className='text-center text-[28px] text-white leading-[normal]'>
 								оберту на місяць кращої воронки
 							</div>
 						</div>
 						{/* 3 */}
 						<div className='max-w-[320px] w-[100%]'>
 							<div
-								className={`text-center text-[100px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
+								className={`text-center 2xl:text-[100px] text-[70px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
 							>
 								7
 							</div>
-							<div className='text-center text-[34px] text-white leading-[normal]'>
+							<div className='text-center text-[28px] text-white leading-[normal]'>
 								років <br/> навчаю і консультую
 							</div>
 						</div>
@@ -47,11 +47,11 @@ export default function MyActivities() {
 					<div className='flex justify-center'>
 						<div className='max-w-[400px] w-[100%] mt-[70px]'>
 							<div
-								className={`text-center text-[100px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
+								className={`text-center 2xl:text-[100px] text-[70px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
 							>
 								663 572
 							</div>
-							<div className='text-center text-[34px] text-white leading-[normal]'>
+							<div className='text-center text-[28px] text-white leading-[normal]'>
 								приніс останній запуск
 							</div>
 						</div>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function FirstScreen() {
 	return (
-		<section className='container main-green-bg h-[100vh] bg-cover bg-no-repeat bg-center flex text-white items-center pr-[60px]'>
+		<section className='container h-[calc(100vh-84px)] bg-cover bg-no-repeat bg-center flex text-white items-center pr-[60px]'>
 			<div className='h-full relative w-[600px]'>
 				<Image
 					src='/first-screen.png'
@@ -15,14 +15,14 @@ export default function FirstScreen() {
 			</div>
 
 			<div className='w-[800px] justify-end text-white ml-[40px]'>
-				<div className='text-[35px] mb-[40px] font-bold'>Старт 17 липня</div>
+				<div className='text-[35px] mb-[40px] font-bold '>Старт 17 липня</div>
 				<MainTitle text='Експрес курс:' className='text-[#E1A421]' />
 				<br />
-				<MainTitle
-					text='Як багатопрофільному експерту знайти свій напрямок та почати на
-						цьому заробляти?'
-					className='leading-[62px] !text-[60px]'
-				/>
+
+				<h2 className='2xl:leading-[52px] leading-[50px] text-[40px] 2xl:text-[46px] uppercase font-bold'>
+					Як багатопрофільному експерту знайти свій напрямок та почати на цьому
+					заробляти?
+				</h2>
 
 				<div className='mt-[60px] text-[30px] w-[500px] '>
 					3 уроки, які допоможуть знайти сильні сторони та почати заробляти на
