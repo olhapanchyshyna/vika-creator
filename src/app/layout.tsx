@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Cormorant } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const сormorant = Cormorant({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${сormorant.className} bg-[#50584B]` }>{children}</body>
+      <body className={` ${montserrat.className} bg-[#50584B]` }>{children}</body>
     </html>
   );
 }

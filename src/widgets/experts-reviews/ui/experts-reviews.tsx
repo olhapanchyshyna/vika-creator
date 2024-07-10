@@ -25,7 +25,7 @@ export default function ExpertsReviews() {
 					<div className='flex justify-between '>
 						<div className='flex flex-col items-start w-[600px]'>
 							<div className='text-[30px]'>
-								<h2 className='text-[55px] text-[#e1a421] font-black'>
+								<h2 className='text-[50px] text-[#e1a421] font-black'>
 									Айті школа
 								</h2>
 								<div className='text-[30px]'>
@@ -45,9 +45,9 @@ export default function ExpertsReviews() {
 							/>
 							<div></div>
 						</div>
-						<div className='flex flex-col items-end w-[600px]'>
+						<div className='flex flex-col items-end w-[610px]'>
 							<div className='text-[30px]'>
-								<h2 className='text-[55px] text-[#e1a421] font-black '>
+								<h2 className='text-[50px] text-[#e1a421] font-black '>
 									Дитяча нутріціологія
 								</h2>
 								<div className='text-[30px]'>
@@ -69,7 +69,7 @@ export default function ExpertsReviews() {
 							<div></div>
 						</div>
 					</div>
-					<div className=' text-[30px] mt-[50px]'>
+					<div className=' text-[30px] mt-[50px] font-bold'>
 						В ОБОХ ВИПАДКАХ МИ ОТРИМАЛИ КРУТІ РЕЗУЛЬТАТИ ЗАВДЯКИ ТОМУ ЩО
 						ПОЄДНАЛИ СУПЕР СИЛУ, ІСТОРІЮ І ДОСВІД ЕКСПЕРТА В ЗАТРЕБУВАНИЙ
 						ПРОДУКТ

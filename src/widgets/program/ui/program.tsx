@@ -72,7 +72,7 @@ export default function Program() {
 									/>
 								</CardHeader>
 								<div className='text-[#ffff] text-[40px] font-bold'>Урок</div>
-								<CardDescription className='p-0 text-center text-[35px] font-medium leading-[38px] text-[#ffff]  mt-[20px]'>
+								<CardDescription className='p-0 text-center text-[29px] font-medium leading-[38px] text-[#ffff]  mt-[20px]'>
 									{item.descr}
 								</CardDescription>
 							</Card>

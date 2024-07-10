@@ -25,7 +25,7 @@ export default function Reviews() {
 						/>
 					</div>
 
-					<div className='text-white text-[30px]'>
+					<div className='text-white text-[30px] font-bold'>
 						Єдине, що вас відрізняє від інших експертів це ваші природні таланти
 						(супер сила) та ваш унікальний досвід. Але коли у вас багато
 						дипломів, навичок, експретизи в різниз напрямках важко визначитися з
