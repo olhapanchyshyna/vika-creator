@@ -49,8 +49,8 @@ export default function Program() {
 	return (
 		<section className='py-[80px] 2xl:py-[100px] px-[60px] '>
 			<div className='container'>
-				<MainTitle text='Програма' className='text-center' />
-				<div className='flex justify-between flex-wrap mt-[100px]'>
+				<MainTitle text='Програма' className='text-center mb-[100px]' />
+				<div className='flex justify-between flex-wrap '>
 					{cardsItem.map(item => {
 						return (
 							<Card

@@ -5,6 +5,7 @@ import ExpertsReviews from '@/widgets/experts-reviews/ui/experts-reviews'
 import FirstScreen from '@/widgets/first-screen/ui/first-screen'
 import MyActivities from '@/widgets/my-activities/ui/my-activities'
 import Program from '@/widgets/program/ui/program'
+import Reviews from '@/widgets/reviews/ui/reviews'
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Course/>
 			<Program/>
 			<ExpertsReviews/>
+			<Reviews/>
 		</main>
 	)
 }
