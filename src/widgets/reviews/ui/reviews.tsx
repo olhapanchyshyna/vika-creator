@@ -60,7 +60,7 @@ export default function Reviews() {
 								</CarouselItem>
 								<CarouselItem className=' '>
 									<Image
-										src='/rev-6.jpeg'
+										src='/rev-5.jpeg'
 										className='h-auto'
 										alt='rev'
 										width={800}
