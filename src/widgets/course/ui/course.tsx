@@ -9,21 +9,10 @@ export default function Course() {
 		<section className='bg-white py-[100px]'>
 			<div className='container'>
 				<MainTitle
-					text='Цей курс – підсумок мого '
+					text='Цей курс – допоміг багатьом експертам'
 					className='text-black text-center mb-[30px]'
 				/>
-				<h2
-					className={`text-[36px] lg:text-[65px] text-black text-center font-bold uppercase mb-[70px] ${raleway.className}`}
-				>
-					<span className='text-[#e1a421] text-[75px] ml-[10px]'>3 </span>
-					річного досвіду
-				</h2>
-
-				<MainTitle
-					text='Він допоміг багатьом експертам'
-					className='text-[#e1a421] text-center !text-[40px]'
-				/>
-
+		
 				<div className='flex flex-col justify-center mt-[100px] items-center '>
 					<div className='flex'>
 						<Image

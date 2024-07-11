@@ -23,48 +23,44 @@ export default function ExpertsReviews() {
 
 				<div>
 					<div className='flex justify-between '>
-						<div className='flex flex-col items-start w-[600px]'>
+						<div className='flex flex-col items-start w-[700px]'>
 							<div className='text-[30px]'>
 								<h2 className='text-[50px] text-[#e1a421] font-black'>
 									Айті школа
 								</h2>
 								<div className='text-[30px]'>
-									<span className='font-bold text-[30px]'>Що робили? </span>
-									<br /> Розпаковку особистості та автентичності, частково
-									переупакували курси, зробили прогрів побудовний на
-									автентичності та історії експерта Масштабування з 350 000 грн
-									на 663 572 грн
+									{/* <span className='font-bold text-[30px]'>Що робили? </span> */}
+									 Масштабування з 350 000 грн на 663 572 грн
 								</div>
 							</div>
-							<Image
-								src='/about-me.jpg'
-								width={500}
-								height={10}
-								alt=''
-								className='m-auto  mb-0'
-							/>
-							<div></div>
-						</div>
-						<div className='flex flex-col items-end w-[610px]'>
-							<div className='text-[30px]'>
+							<div className='text-[30px] mt-[80px]'>
 								<h2 className='text-[50px] text-[#e1a421] font-black '>
 									Дитяча нутріціологія
 								</h2>
 								<div className='text-[30px]'>
-									<span className='font-bold '>Що робили? </span>
-									<br />
-									Розпаковку особистості та автентичності, на основі цього
-									переупакувалиі запустили основний продукт Масштабування з 0 до
-									$5000 з першого запуску Через пів року оберт виріс до мільйону
-									гривень оберту другий рік
+									{/* <span className='font-bold '>Що робили? </span> */}
+									
+									Масштабування з 0 до $5000 з першого запуску Через пів року
+									оберт виріс до мільйону гривень оберту другий рік
 								</div>
 							</div>
+
+							<div></div>
+						</div>
+						<div className='flex flex-col items-end w-[500px]'>
 							<Image
-								src='/about-me.jpg'
+								src='/expert-rev-1.jpeg'
 								width={500}
 								height={10}
 								alt=''
-								className='m-auto mt-[20px] mb-0'
+								className='  mb-0'
+							/>
+							<Image
+								src='/expert-rev-1.2.jpeg'
+								width={500}
+								height={10}
+								alt=''
+								className=' mt-[40px] mb-0'
 							/>
 							<div></div>
 						</div>

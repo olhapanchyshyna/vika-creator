@@ -15,7 +15,7 @@ export default function FirstScreen() {
 			</div>
 
 			<div className='w-[800px] justify-end text-white ml-[40px]'>
-				<div className='text-[35px] mb-[40px] font-bold '>Старт 17 липня</div>
+				<div className='text-[35px] mb-[40px] font-bold '>Старт 20 липня</div>
 				<MainTitle text='Експрес курс:' className='text-[#E1A421]' />
 				<br />
 
@@ -23,13 +23,12 @@ export default function FirstScreen() {
 					Як багатопрофільному експерту знайти свій напрямок та почати на цьому
 					заробляти?
 				</h2>
-
-				<div className='mt-[60px] text-[30px] w-[500px] '>
-					3 уроки, які допоможуть знайти сильні сторони та почати заробляти на
-					них
-				</div>
-				<div className='rounded-lg bg-[#E1A421] mt-[40px] w-[240px] py-[20px] px-[30px] text-center text-[40px]'>
+				<div className='rounded-lg bg-[#E1A421] mt-[60px] w-[240px] py-[20px] px-[30px] text-center text-[40px]'>
 					280 грн
+				</div>
+				<div className=' text-[30px] w-[500px]  mt-[40px]'>
+					6 уроків, які допоможуть знайти сильні сторони та почати заробляти на
+					них
 				</div>
 			</div>
 		</section>

@@ -39,9 +39,16 @@ const cardsItem = [
 	},
 	{
 		title: '5 ',
-		descr: 'Як скласти покроковий план для монетизації вашого досвіду та реаліазацїї',
+		descr:
+			'Як скласти покроковий план для монетизації вашого досвіду та реаліазацїї',
 		img: '/ppc.png',
 		alt: 'ppc',
+	},
+	{
+		title: '',
+		descr: 'Персональний розбір вашого кейсу на груповій Zoom ceccії ',
+		img: '/win.png',
+		alt: 'win',
 	},
 ]
 
@@ -51,7 +58,7 @@ export default function Program() {
 			<div className='container'>
 				<MainTitle text='Програма' className='text-center mb-[100px]' />
 				<div className='flex justify-between flex-wrap '>
-					{cardsItem.map(item => {
+					{cardsItem.map((item, index) => {
 						return (
 							<Card
 								key={item.title}
@@ -71,8 +78,11 @@ export default function Program() {
 										className=' mb-[10px]'
 									/>
 								</CardHeader>
-								<div className='text-[#ffff] text-[40px] font-bold'>Урок</div>
-								<CardDescription className='p-0 text-center text-[29px] font-medium leading-[38px] text-[#ffff]  mt-[20px]'>
+								<div className='text-[#ffff] text-[40px] font-bold'>
+									{' '}
+									{index === 5 ? 'Masremind' : 'Урок'}{' '}
+								</div>
+								<CardDescription className='p-0 text-center text-[29px] font-medium leading-[38px] text-[#ffff] mt-[20px]'>
 									{item.descr}
 								</CardDescription>
 							</Card>

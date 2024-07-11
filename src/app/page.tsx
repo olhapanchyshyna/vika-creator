@@ -16,12 +16,23 @@ export default function Home() {
 			<Benefits />
 			<AboutMe />
 			<MyActivities />
-      <Course/>
-			<Program/>
-			<ExpertsReviews/>
-			<Reviews/>
-			<Faq/>
-			<CourseFor/>
+			<Course />
+			<Program />
+			<ExpertsReviews />
+			<Reviews />
+			<div className=' bg-yellow-500 px-[50px] py-[50px] text-white text-[30px] font-bold'>
+				<div className='container'>
+					{' '}
+					Єдине, що вас відрізняє від інших експертів це ваші природні таланти
+					(супер сила) та ваш унікальний досвід. Але коли у вас багато дипломів,
+					навичок, експретизи в різниз напрямках важко визначитися з одним
+					напрямкою та темою, бо вам може здатися, що це обмежує вас. Але
+					насправді напрямок допомагає вам швидше монетизувати накопичений
+					досвід та таланти.
+				</div>{' '}
+			</div>
+			<Faq />
+			<CourseFor />
 		</main>
 	)
 }
