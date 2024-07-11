@@ -24,6 +24,15 @@ export default function Reviews() {
 							<CarouselContent className='w-[800px]'>
 								<CarouselItem className=' '>
 									<Image
+										src='/rev-5.jpeg'
+										className='h-auto'
+										alt='rev'
+										width={800}
+										height={600}
+									/>
+								</CarouselItem>
+								<CarouselItem className=' '>
+									<Image
 										src='/rev-1.jpeg'
 										className='h-auto'
 										alt='rev'
@@ -52,15 +61,6 @@ export default function Reviews() {
 								<CarouselItem className=' '>
 									<Image
 										src='/rev-4.jpeg'
-										className='h-auto'
-										alt='rev'
-										width={800}
-										height={600}
-									/>
-								</CarouselItem>
-								<CarouselItem className=' '>
-									<Image
-										src='/rev-5.jpeg'
 										className='h-auto'
 										alt='rev'
 										width={800}
