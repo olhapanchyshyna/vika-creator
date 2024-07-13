@@ -110,12 +110,14 @@ export default function Reviews() {
 										<iframe
 											src='https://www.youtube.com/embed/mwwCLSFSZC0'
 											className='w-[100%] h-[400px]'
+											allowFullScreen
 										></iframe>
 									</CarouselItem>
 									<CarouselItem className=' '>
 										<iframe
 											src='https://www.youtube.com/embed/cReZt0TERyc'
 											className='w-[100%] h-[400px]'
+											allowFullScreen
 										></iframe>
 									
 									</CarouselItem>

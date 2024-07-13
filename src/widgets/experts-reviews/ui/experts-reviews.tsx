@@ -43,10 +43,10 @@ export default function ExpertsReviews() {
 								alt=''
 								className='mt-[40px]'
 							/>
-							<div className=' text-[30px] mt-[100px] font-bold'>
+							{/* <div className=' text-[30px] mt-[100px] font-bold'>
 								МИ ОТРИМАЛИ КРУТІ РЕЗУЛЬТАТИ ЗАВДЯКИ ТОМУ ЩО ПОЄДНАЛИ СУПЕР
 								СИЛУ, ІСТОРІЮ І ДОСВІД ЕКСПЕРТА В ЗАТРЕБУВАНИЙ ПРОДУКТ
-							</div>
+							</div> */}
 							{/* <div className='text-[30px] mt-[80px]'>
 								<h2 className='text-[50px] text-[#e1a421] font-black '>
 									Дитяча нутріціологія
@@ -73,10 +73,10 @@ export default function ExpertsReviews() {
 						</div>
 					</div>
 				</div>
-				{/* <div className=' text-[30px] mt-[10px] font-bold max-w-[900px]'>
+				<div className=' text-[30px] mt-[20px] font-bold max-w-[900px] text-[#f65f0b]'>
 					МИ ОТРИМАЛИ КРУТІ РЕЗУЛЬТАТИ ЗАВДЯКИ ТОМУ ЩО ПОЄДНАЛИ СУПЕР СИЛУ,
 					ІСТОРІЮ І ДОСВІД ЕКСПЕРТА В ЗАТРЕБУВАНИЙ ПРОДУКТ
-				</div> */}
+				</div>
 			</div>
 		</section>
 	)
