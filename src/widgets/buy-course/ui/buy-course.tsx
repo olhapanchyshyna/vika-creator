@@ -30,7 +30,7 @@ export default function BuyCourse() {
 
 					<Timer />
 					<Image
-						src='/by-course.jpg'
+						src='/by-course-me.jpg'
 						width={300}
 						height={400}
 						alt='me'
