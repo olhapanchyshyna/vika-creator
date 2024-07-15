@@ -9,7 +9,7 @@ export default function CourseFor() {
 				<div className='flex justify-between m-auto'>
 					<div className='flex flex-col mr-[15px]'>
 						<div className='w-[550px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl text-[30px] mb-[30px] h-[300px]'>
-							- експретів-початківців, які хочуть знайти своє місце в інфобізі:
+							- експертів-початківців, які хочуть знайти своє місце в інфобізі:
 							знайти свій напрямок, мати прості і дієві інструменти для
 							заробітку на своїй експертності
 						</div>

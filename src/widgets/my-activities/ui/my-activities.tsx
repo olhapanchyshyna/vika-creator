@@ -18,7 +18,7 @@ export default function MyActivities() {
 								8
 							</div>
 							<div className='text-center text-[28px] text-white leading-[normal]'>
-								років в сфері маркетингу, мала власну СММ агенцію
+								років в сфері маркетингу
 							</div>
 						</div>
 						{/* 2 */}
@@ -26,10 +26,10 @@ export default function MyActivities() {
 							<div
 								className={`text-center 2xl:text-[100px] text-[70px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
 							>
-								100 0000
+								700 000
 							</div>
 							<div className='text-center text-[28px] text-white leading-[normal]'>
-								оберту на місяць кращої воронки
+								грн оберту на місяць кращої воронки
 							</div>
 						</div>
 						{/* 3 */}
@@ -52,7 +52,7 @@ export default function MyActivities() {
 								663 572
 							</div>
 							<div className='text-center text-[28px] text-white leading-[normal]'>
-								приніс останній запуск
+								грн приніс останній запуск
 							</div>
 						</div>
 					</div>

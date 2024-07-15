@@ -34,7 +34,7 @@ export default function BuyCourse() {
 						width={300}
 						height={400}
 						alt='me'
-						className='2xl:w-[400px] w-[300px] h-auto mt-[30px]'
+						className='2xl:w-[600px] w-[440px] h-auto mt-[30px]'
 					/>
 				</div>
 			</div>

@@ -57,7 +57,7 @@ export default function Program() {
 		<section className='py-[80px] 2xl:py-[100px] px-[60px] '>
 			<div className='container'>
 				<MainTitle text='Програма' className='text-center mb-[100px]' />
-				<div className='flex justify-between flex-wrap '>
+				<div className='flex justify-evenly flex-wrap '>
 					{cardsItem.map((item, index) => {
 						return (
 							<Card

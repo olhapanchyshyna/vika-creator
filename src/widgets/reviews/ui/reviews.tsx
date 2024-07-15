@@ -27,18 +27,30 @@ export default function Reviews() {
 								}}
 							>
 								<CarouselContent className='w-[600px] '>
-									<CarouselItem className=' '>
+									<CarouselItem className='rounded-2xl  '>
 										<Link
 											href='https://www.instagram.com/iryna_farbota/'
 											target='_blank'
 										>
-											<Image
+											{/* <Image
 												src='/rev-5.jpeg'
 												className='h-auto'
 												alt='rev'
 												width={800}
 												height={600}
-											/>
+											/> */}
+											<div className='text-white text-[25px]'>
+												<div className=''>Гаяне</div>
+												<div>Підприємиця, арт менторка, авторка освітніх курсів
+												для митців</div>
+												<div className='mt-[20px]'> 
+													Робили разом запуск. Вікторія дуже чітко розкрила мою
+													експертність, підготувала план запуску. Підтримувала
+													запуск та давала чіткі рекомендації щодо роботи.{' '}
+												</div>
+											</div>
+											
+											{/* https://www.instagram.com/gaya.arushanian.art/ */}
 										</Link>
 									</CarouselItem>
 									<CarouselItem className=' '>
@@ -92,20 +104,6 @@ export default function Reviews() {
 											/>
 										</Link>
 									</CarouselItem>
-								</CarouselContent>
-								<CarouselPrevious />
-								<CarouselNext />
-							</Carousel>
-						</div>
-
-						<div className='m-auto mt-[60px] flex '>
-							<Carousel
-								className='m-auto rounded-[40px] '
-								opts={{
-									align: 'start',
-								}}
-							>
-								<CarouselContent className='w-[600px]'>
 									<CarouselItem className=' '>
 										<iframe
 											src='https://www.youtube.com/embed/mwwCLSFSZC0'
@@ -119,13 +117,27 @@ export default function Reviews() {
 											className='w-[100%] h-[400px]'
 											allowFullScreen
 										></iframe>
-									
 									</CarouselItem>
 								</CarouselContent>
 								<CarouselPrevious />
 								<CarouselNext />
 							</Carousel>
 						</div>
+
+						{/* <div className='m-auto mt-[60px] flex '>
+							<Carousel
+								className='m-auto rounded-[40px] '
+								opts={{
+									align: 'start',
+								}}
+							>
+								<CarouselContent className='w-[600px]'>
+									
+								</CarouselContent>
+								<CarouselPrevious />
+								<CarouselNext />
+							</Carousel>
+						</div> */}
 					</div>
 				</div>
 			</div>

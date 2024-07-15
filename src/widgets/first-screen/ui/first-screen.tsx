@@ -7,10 +7,10 @@ export default function FirstScreen() {
 			<div className='h-full relative w-[600px]'>
 				<Image
 					src='/first-screen.png'
-					className='!absolute bottom-0'
+					className='!absolute bottom-0 '
 					alt='main'
-					width={600}
-					height={600}
+					width={400}
+					height={400}
 				/>
 			</div>
 
@@ -27,9 +27,11 @@ export default function FirstScreen() {
 					280 грн
 				</div>
 				<div className=' text-[30px] w-[500px]  mt-[40px]'>
-					6 уроків, які допоможуть знайти сильні сторони та почати заробляти на
-					них
+					6 уроків, які допоможуть знайти твої сильні сторони та почати заробляти на
+					них + 
+					<span className='italic text-[25px]'> Бонус - робочий зошит</span>
 				</div>
+		
 			</div>
 		</section>
 	)
