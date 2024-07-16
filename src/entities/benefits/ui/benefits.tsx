@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Benefits() {
 	return (
-		<div className='w-[100wh] h-[84px] text-center text-[30px] bg-[#E1A421] text-white'></div>
+		<div className='w-[100wh] h-[70px] text-[30px] bg-[#E1A421]'></div>
 	)
 }

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function FirstScreen() {
 	return (
-		<section className='container h-[calc(100vh-84px)] bg-cover bg-no-repeat bg-center flex text-white items-center pr-[60px]'>
+		<section className='container h-[calc(100vh-70px)] bg-cover bg-no-repeat bg-center flex text-white items-center pr-[60px]'>
 			<div className='h-full relative w-[600px]'>
 				<Image
 					src='/first-screen.png'
