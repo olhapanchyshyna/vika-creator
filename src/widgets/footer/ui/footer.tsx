@@ -11,10 +11,10 @@ export default function Footer() {
 				</div>
 
 				<div className='flex flex-col'>
-					<Link className='text-[20px]' href='' target='_blank'>
+					<Link className='text-[20px]' href='/privacy-policy' target='_blank'>
 						Політика конфіденційності
 					</Link>
-					<Link className='text-[20px]' href='' target='_blank'>
+					<Link className='text-[20px]' href='/public-offer' target='_blank'>
 						Публічна оферта
 					</Link>
 				</div>

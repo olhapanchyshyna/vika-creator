@@ -80,7 +80,7 @@ export default function Program() {
 								</CardHeader>
 								<div className='text-[#ffff] text-[40px] font-bold'>
 									{' '}
-									{index === 5 ? 'Masremind' : 'Урок'}{' '}
+									{index === 5 ? 'Mastermind' : 'Урок'}{' '}
 								</div>
 								<CardDescription className='p-0 text-center text-[29px] font-medium leading-[38px] text-[#ffff] mt-[20px]'>
 									{item.descr}
