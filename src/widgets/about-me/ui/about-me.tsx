@@ -12,28 +12,26 @@ export default function AboutMe() {
 				<div className='2xl:text-[48px] text-[32px] font-bold uppercase'>
 					Я продюсерка та менторка експертів{' '}
 				</div>
-				<div className='flex justify-between items-center'>
+				<div className='flex justify-between '>
 					<div className='max-w-[600px] flex flex-col items-center'>
 						<div className='mt-[40px] text-[23px] 2xl:text-[30px]'>
 							<span className='text-[#E1A421]'>
-								Я завжди бачила і підсвічувала сильні сторони оточуючим
+								Я завжди підкреслювала сильні сторони оточуючих
 							</span>{' '}
-							- розповідала, як їм релізовувати свої талантати і заробляти на
-							цьому.
+							і показувала, як реалізувати їх таланти та заробляти на цьому.
 						</div>
-						<Image
+						{/* <Image
 							src='/comment.png'
 							alt='comment'
 							width={400}
 							height={500}
 							className='2xl:w-[600px] w-[450px] h-auto mt-[10px]'
-						/>
-						<div className='mt-[20px] text-[23px] 2xl:text-[30px] italic'>
-							Врешті решт, я вирішила робити те що я вмію краще - допомагати
-							експертам визначати свій напрям - знаходити що вони люблять і
-							вміють краще і заробляти на цьому. І цей міні курс тільки початок,
-							я планую робити виступи по всьому світу з темою розкриття і
-							монетизації талатів.
+						/> */}
+						<div className='mt-[60px] text-[23px] 2xl:text-[30px] italic'>
+							Я вирішила допомагати експертам знаходити свій напрямок,
+							реалізовувати таланти та заробляти на цьому. До кінця року планую
+							допомогти 1000+ експертам, тому ти можеш розраховувати на свій
+							результат.
 						</div>
 					</div>
 					<Image

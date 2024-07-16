@@ -14,7 +14,7 @@ export default function Reviews() {
 		<section className=' py-[80px] 2xl:py-[100px] px-[60px]  mt-[-1px]'>
 			<div className='container'>
 				<MainTitle
-					text='Інші результати клієнтів'
+					text='Результати клієнтів'
 					className='text-center mb-[100px]'
 				/>
 				<div>

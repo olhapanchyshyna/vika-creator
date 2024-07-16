@@ -22,7 +22,7 @@ export default function Home() {
 			<Program />
 			<ExpertsReviews />
 			<Reviews />
-			<div className=' bg-[#e1a421] px-[50px] py-[50px] text-white text-[30px] font-bold'>
+			{/* <div className=' bg-[#e1a421] px-[50px] py-[50px] text-white text-[30px] font-bold'>
 				<div className='container'>
 					Єдине, що вас відрізняє від інших експертів це ваші природні таланти
 					(супер сила) та ваш унікальний досвід. Але коли у вас багато дипломів,
@@ -31,7 +31,7 @@ export default function Home() {
 					насправді напрямок допомагає вам швидше монетизувати накопичений
 					досвід та таланти.
 				</div>{' '}
-			</div>
+			</div> */}
 			<Faq />
 			<CourseFor />
 			<BuyCourse/>

@@ -49,7 +49,7 @@ export default function MyActivities() {
 							<div
 								className={`text-center 2xl:text-[100px] text-[70px] font-bold leading-[normal] text-[#e1a421]  ${raleway.className}`}
 							>
-								663 572
+								665 000
 							</div>
 							<div className='text-center text-[28px] text-white leading-[normal]'>
 								грн приніс останній запуск
