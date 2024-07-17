@@ -19,7 +19,7 @@ export default function Home() {
 		<main className=''>
 			<FirstScreen />
 			<Benefits />
-			{/* <AboutMe /> */}
+			<AboutMe />
 			{/* <MyActivities /> */}
 			{/* <Course /> */}
 			{/* <Program /> */}
