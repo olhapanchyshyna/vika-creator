@@ -1,11 +1,11 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
-import Timer from '@/features/timer/ui/timer'
+import MainTitle from '@/components/main-title'
+import Timer from '@/components/timer'
 import Image from 'next/image'
 import Link from 'next/link'
 
-type Url = string;
+type Url = string
 
-const PAYMENTLINK: Url = process.env.PAYMENTLINK as Url;
+const PAYMENTLINK: Url = process.env.PAYMENTLINK as Url
 
 export default function BuyCourse() {
 	return (

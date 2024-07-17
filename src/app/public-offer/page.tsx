@@ -1,4 +1,4 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 
 export default function page() {
 	return (
@@ -18,7 +18,7 @@ export default function page() {
 				<div>
 					<strong>ВИКОНАВЕЦЬ:</strong>
 					<br />
-					Фізична особа підприємець Арушанян Гаяне Рубенівна 
+					Фізична особа підприємець Арушанян Гаяне Рубенівна
 				</div>
 				<div>
 					<strong>ЗАМОВНИК: </strong>

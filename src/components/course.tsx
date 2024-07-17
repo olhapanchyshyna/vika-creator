@@ -1,4 +1,4 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 import { Raleway } from 'next/font/google'
 import Image from 'next/image'
 
@@ -12,7 +12,7 @@ export default function Course() {
 					text='Цей курс – допоміг багатьом експертам'
 					className='text-black text-center mb-[30px]'
 				/>
-		
+
 				<div className='flex flex-col justify-center mt-[100px] items-center '>
 					<div className='flex'>
 						<Image
@@ -51,7 +51,8 @@ export default function Course() {
 						/>
 						<div className='text-[30px] max-w-[680px] w-[100%] pb-[52px] pl-[10px]'>
 							{' '}
-							Запустити курс або менторство і збільшити свій дохід в 2-3 рази більше
+							Запустити курс або менторство і збільшити свій дохід в 2-3 рази
+							більше
 						</div>
 					</div>
 				</div>

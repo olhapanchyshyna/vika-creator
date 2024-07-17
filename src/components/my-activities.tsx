@@ -1,4 +1,4 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 import { Raleway } from 'next/font/google'
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -40,7 +40,7 @@ export default function MyActivities() {
 								7
 							</div>
 							<div className='text-center text-[28px] text-white leading-[normal]'>
-								років <br/> навчаю і консультую
+								років <br /> навчаю і консультую
 							</div>
 						</div>
 					</div>

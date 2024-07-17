@@ -1,11 +1,11 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 import {
 	Carousel,
 	CarouselContent,
 	CarouselItem,
 	CarouselNext,
 	CarouselPrevious,
-} from '@/shared/ui/ui/carousel'
+} from './ui/carousel'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -193,8 +193,12 @@ export default function Reviews() {
 												height={100}
 											/>
 											<div className='text-white text-[25px] my-[10px]'>
-												<div className='text-[30px] font-medium'>Маргарита Січкарь</div>
-												<div>блогерка, книжкова продюсерка, авторка освітніх курсів для авторів
+												<div className='text-[30px] font-medium'>
+													Маргарита Січкарь
+												</div>
+												<div>
+													блогерка, книжкова продюсерка, авторка освітніх курсів
+													для авторів
 												</div>
 											</div>
 										</Link>
@@ -204,7 +208,7 @@ export default function Reviews() {
 											allowFullScreen
 										></iframe>
 									</CarouselItem>
-								
+
 									<CarouselItem className=' '>
 										<Link
 											href='https://www.instagram.com/natalia_finelife/'
@@ -219,9 +223,9 @@ export default function Reviews() {
 												height={100}
 											/>
 											<div className='text-white text-[25px] my-[10px]'>
-												<div className='text-[30px] font-medium'> Наталія 
-												</div>
-												<div>духовний наставник, авторка освітніх продуктів
+												<div className='text-[30px] font-medium'> Наталія</div>
+												<div>
+													духовний наставник, авторка освітніх продуктів
 												</div>
 											</div>
 										</Link>

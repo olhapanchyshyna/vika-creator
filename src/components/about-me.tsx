@@ -1,4 +1,4 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 import Image from 'next/image'
 
 export default function AboutMe() {
@@ -6,7 +6,7 @@ export default function AboutMe() {
 		<section className='bg-white py-[80px] 2xl:py-[100px] px-[60px]  mt-[-1px]'>
 			<div className='container'>
 				<div className='flex justify-between '>
-					<div className='max-w-[600px] flex flex-col'>
+					<div className='max-w-[700px] flex flex-col'>
 						<MainTitle
 							text='Мене звати Віка Мірча,'
 							className='text-[#E1A421] mb-[30px]'

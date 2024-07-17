@@ -1,4 +1,4 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 
 export default function Page() {
 	return (

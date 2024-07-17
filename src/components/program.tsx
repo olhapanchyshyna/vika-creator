@@ -1,10 +1,10 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
 import {
 	Card,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from '@/shared/ui/ui/card'
+} from './ui/card'
 import { Raleway } from 'next/font/google'
 import Image from 'next/image'
 

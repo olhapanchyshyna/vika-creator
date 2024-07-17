@@ -1,10 +1,11 @@
-import MainTitle from '@/entities/main-title/ui/main-title'
+import MainTitle from '@/components/main-title'
+
 import {
 	Accordion,
 	AccordionContent,
 	AccordionItem,
 	AccordionTrigger,
-} from '@/shared/ui/ui/accordion'
+} from './ui/accordion'
 
 export default function Faq() {
 	return (
@@ -36,7 +37,7 @@ export default function Faq() {
 							descr='Крaще відкинути перфекціонізм, бо на перших порах все, що вам потрібно це простий план і маленькі послідовні дії в напрямку реалізації планів. '
 							value='item-4'
 						/>
-							<AccordionItemCustom
+						<AccordionItemCustom
 							title='Чи зможу я запустити власний курс або менторство після даного курсу?'
 							descr='Даний міні курс може стати трампліном для запуску вашого майбутнього курсу або менторства, бо містить базові речі по самопродюсуванню'
 							value='item-5'

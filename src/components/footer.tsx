@@ -1,4 +1,4 @@
-import { MediaLinks } from '@/features/media-links/ui/media-links'
+import { MediaLinks } from '@/components/media-links'
 import Link from 'next/link'
 
 export default function Footer() {
