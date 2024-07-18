@@ -54,35 +54,35 @@ const cardsItem = [
 
 export default function Program() {
 	return (
-		<section className='py-[80px] 2xl:py-[100px] px-[60px] '>
-			<div className='container'>
-				<MainTitle text='Програма' className='text-center mb-[100px]' />
+		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
+			<div className='container p-0'>
+				<MainTitle text='Програма' className='text-center mb-[50px] lg:mb-[100px]' />
 				<div className='flex justify-evenly flex-wrap '>
 					{cardsItem.map((item, index) => {
 						return (
 							<Card
 								key={item.title}
-								className={`m-auto h-[450px] w-[450px] rounded-[40px]  bg-[#e1a421] px-[10px] py-[40px] text-center md:mx-[5px] md:my-[10px] justify-between`}
+								className={`m-auto h-[295px] w-[300px] md:h-[350px] md:w-[350px] xl:h-[390px] xl:w-[400px] rounded-[40px] bg-[#e1a421] px-[15px] py-[30px] text-center mx-[5px] my-[10px] justify-between`}
 							>
-								<CardHeader className='p-0 flex flex-row m-auto justify-center items-end mb-[20px]'>
+								<CardHeader className='p-0 flex flex-row m-auto justify-center items-baseline xl:mb-[20px]'>
 									<CardTitle
-										className={`mb-[25px] text-center text-[120px] font-bold leading-[50px] text-[#ffff] ${raleway.className}`}
+										className={`mb-[15px] md:mb-[25px] text-center text-[70px] md:text-[80px] xl:text-[115px] font-bold leading-[50px] text-[#ffff] ${raleway.className}`}
 									>
 										{item.title}
 									</CardTitle>
 									<Image
 										src={item.img}
 										alt={item.alt}
-										width={100}
-										height={200}
-										className=' mb-[10px]'
+										width={80}
+										height={100}
+										className='mb-[10px] w-[50px] h-[50px] md:w-[65px] md:h-[65px] xl:w-[75px] xl:h-[75px]'
 									/>
 								</CardHeader>
-								<div className='text-[#ffff] text-[40px] font-bold'>
+								<div className='text-[#ffff] text-[26px] md:text-[34px] xl:text-[40px] font-bold'>
 									{' '}
 									{index === 5 ? 'Mastermind' : 'Урок'}{' '}
 								</div>
-								<CardDescription className='p-0 text-center text-[29px] font-medium leading-[38px] text-[#ffff] mt-[20px]'>
+								<CardDescription className='p-0 text-center text-[18px] md:text-[20px] xl:text-[23px] font-medium leading-[23px] md:leading-[30px] text-[#ffff] mt-[14px] md:mt-[20px]'>
 									{item.descr}
 								</CardDescription>
 							</Card>

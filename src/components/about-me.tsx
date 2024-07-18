@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function AboutMe() {
 	return (
-		<section className='bg-white py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px]  mt-[-1px]'>
+		<section className='bg-white py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px]  '>
 			<div className='container p-0'>
 				<div className='flex justify-between flex-col lg:flex-row items-center'>
 					<div className='2xl:max-w-[760px] lg:max-w-[450px] xl:max-w-[580px] flex flex-col lg:order-none order-3'>

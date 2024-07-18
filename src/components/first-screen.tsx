@@ -8,7 +8,7 @@ export default function FirstScreen() {
 	const PAYMENTLINK: Url = process.env.PAYMENTLINK as Url
 
 	return (
-		<section className='lg:relative container pt-[50px] lg:py-[60px] px-[20px] xl:py-[100px] bg-cover bg-no-repeat bg-center flex-col lg:flex-row flex text-white items-center '>
+		<section className='lg:relative container pt-[50px] lg:py-[60px] px-[20px] xl:py-[80px] bg-cover bg-no-repeat bg-center flex-col lg:flex-row flex text-white items-center '>
 			<div className='lg:w-[600px] order-2 lg:order-none'>
 				<Image
 					src='/first-screen.png'

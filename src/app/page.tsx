@@ -21,14 +21,14 @@ export default function Home() {
 			<Benefits />
 			<AboutMe />
 			<MyActivities />
-			{/* <Course /> */}
-			{/* <Program /> */}
+			<Course />
+			<Program />
 			{/* <ExpertsReviews /> */}
 			{/* <Reviews /> */}
 			{/* <Faq /> */}
 			{/* <CourseFor /> */}
 			{/* <BuyCourse/> */}
-			{/* <Footer/> */}
+			<Footer/>
 		</main>
 	)
 }

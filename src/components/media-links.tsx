@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function MediaLinks() {
   return (
-    <div className='flex w-[280px] justify-between'>
+    <div className='flex w-[200px]  lg:w-[280px] justify-between'>
       <Link
         href="https://www.instagram.com/vika_creator7/"
         target="_blank"
@@ -12,7 +12,7 @@ export function MediaLinks() {
         <Image
           src="/instagram.png"
           alt="instagram"
-          className="h-[60px] w-[60px] "
+          className="lg:h-[60px] lg:w-[60px] h-[40px] w-[40px]"
           width={50}
           height={50}
         />
@@ -25,7 +25,7 @@ export function MediaLinks() {
         <Image
           src="/youtube.png"
           alt="youtube"
-          className="h-[60px] w-[60px] "
+          className="lg:h-[60px] lg:w-[60px] h-[40px] w-[40px]"
           width={50}
           height={50}
         />
@@ -38,7 +38,7 @@ export function MediaLinks() {
         <Image
           src="/telegram.png"
           alt="Telegram"
-          className="h-[60px] w-[60px] "
+          className="lg:h-[60px] lg:w-[60px] h-[40px] w-[40px]"
           width={50}
           height={50}
         />
