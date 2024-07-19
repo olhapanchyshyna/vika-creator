@@ -24,7 +24,7 @@ export default function Home() {
 			<Course />
 			<Program />
 			{/* <ExpertsReviews /> */}
-			{/* <Reviews /> */}
+			<Reviews />
 			{/* <Faq /> */}
 			{/* <CourseFor /> */}
 			{/* <BuyCourse/> */}

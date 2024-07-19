@@ -9,24 +9,28 @@ import {
 	CarouselPrevious,
 } from './ui/carousel'
 
+const styleDescr = `mt-[20px] leading-[26px] mb:leading-[31px] text-[16px] md:text-[18px] lg:text-[23px]`
+const styleName = `text-[23px] md:text-[28px] lg:text-[28px] font-medium`
+const styleProf = `leading-[25px] md:leading-[30px] text-[18px] md:text-[23px] lg:text-[25px] `
+
 export default function Reviews() {
 	return (
-		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px]'>
-			<div className='container'>
+		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
+			<div className='container flex flex-col items-center'>
 				<MainTitle
 					text='Результати клієнтів'
 					className='text-center mb-[50px] lg:mb-[100px]'
 				/>
 				<div>
 					<div className='flex justify-between'>
-						<div className='m-auto mb-[60px] flex '>
+						<div className=' mb-[60px] flex '>
 							<Carousel
-								className='m-auto rounded-[40px] h-[500px] w-[610px] lg:h-[560px] lg:w-[760px] py-[20px] px-[30px] bg-[#e1a421]'
+								className='m-auto rounded-[40px] h-[600px] w-[330px] md:h-[500px] md:w-[580px] lg:h-[560px] lg:w-[760px] py-[20px] md:px-[30px] px-[10px] bg-[#e1a421]'
 								opts={{
 									align: 'start',
 								}}
 							>
-								<CarouselContent className='w-[560px] '>
+								<CarouselContent className='w-[420] md:w-[550px] lg:w-[730px] '>
 									<CarouselItem className='rounded-2xl '>
 										<div className='text-white text-[25px] my-[10px]'>
 											<Link
@@ -36,18 +40,20 @@ export default function Reviews() {
 											>
 												<Image
 													src='/woman.png'
-													className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+													className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 													alt='profile'
 													width={100}
 													height={100}
 												/>
 												<div>
-													<div className='text-[28px] lg:text-[28px]  font-medium'>Ірина</div>
-													<div className='leading-[30px] text-[23px] lg:text-[25px] '>смм спеціалістка, модель</div>
+													<div className={`${styleName}`}>Ірина</div>
+													<div className={`${styleProf}`}>
+														смм спеціалістка, модель
+													</div>
 												</div>
 											</Link>
 
-											<div className='mt-[20px] leading-[26px] mb:leading-[31px] text-[18px] lg:text-[23px]'>
+											<div className={`${styleDescr}`}>
 												Хотіла подякувати за експертний розбір особистості. Вже
 												давно хотіла зрозуміти в яких напрямках рухатись, та що
 												найкраще використовувати в позиціонуванні себе, як
@@ -70,21 +76,21 @@ export default function Reviews() {
 											>
 												<Image
 													src='/woman.png'
-													className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+													className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 													alt='profile'
 													width={100}
 													height={100}
 												/>
 												<div>
-													<div className='text-[28px] lg:text-[30px] font-medium'>Гаяне</div>
-													<div className='leading-[30px] text-[23px] lg:text-[25px] '>
+													<div className={`${styleName}`}>Гаяне</div>
+													<div className={`${styleProf}`}>
 														Підприємиця, арт менторка, авторка освітніх курсів
 														для митців
 													</div>
 												</div>
 											</Link>
 											<div className='text-white text-[25px] my-[10px]'>
-												<div className='mt-[20px] leading-[26px] mb:leading-[31px] text-[18px] lg:text-[23px]'>
+												<div className={`${styleDescr}`}>
 													Робили разом запуск. Вікторія дуже чітко розкрила мою
 													експертність, підготувала план запуску. Підтримувала
 													запуск та давала чіткі рекомендації щодо роботи.{' '}
@@ -101,18 +107,20 @@ export default function Reviews() {
 											>
 												<Image
 													src='/man.png'
-													className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+													className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 													alt='profile'
 													width={100}
 													height={100}
 												/>
 												<div>
-													<div className='text-[28px] lg:text-[30px] font-medium'>Сергій</div>
-													<div className='leading-[30px] text-[23px] lg:text-[25px] '>експерт зі схуднення, тренер</div>
+													<div className={`${styleName}`}>Сергій</div>
+													<div className={`${styleProf}`}>
+														експерт зі схуднення, тренер
+													</div>
 												</div>
 											</Link>
 											<div className='text-white text-[25px] my-[10px]'>
-												<div className='mt-[20px] leading-[26px] mb:leading-[31px] text-[18px] lg:text-[23px]'>
+												<div className={`${styleDescr}`}>
 													Дякую за консультацію! Багато чого для себе взвяв
 													корисного в напрямку розкриття експертності! Дуже
 													продуктивно та результативно
@@ -129,18 +137,20 @@ export default function Reviews() {
 											>
 												<Image
 													src='/woman.png'
-													className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+													className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 													alt='profile'
 													width={100}
 													height={100}
 												/>
 												<div>
-													<div className='text-[28px] lg:text-[30px] font-medium'>Ольга</div>
-													<div className='leading-[30px] text-[23px] lg:text-[25px] '>експертка з голосу</div>
+													<div className={`${styleName}`}>Ольга</div>
+													<div className={`${styleProf}`}>
+														експертка з голосу
+													</div>
 												</div>
 											</Link>
 											<div className='text-white text-[25px] my-[10px]'>
-												<div className='mt-[20px] leading-[26px] mb:leading-[31px] text-[18px] lg:text-[23px]'>
+												<div className={`${styleDescr}`}>
 													Нарешті я запустила передзапуск! Просто повідомляю
 													тобі, щоб ти знала, що твої зусилля не пройшли
 													даремно! Потік закрився менше ніж за годину (10 осіб)
@@ -157,20 +167,20 @@ export default function Reviews() {
 											>
 												<Image
 													src='/woman.png'
-													className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+													className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 													alt='profile'
 													width={100}
 													height={100}
 												/>
 												<div>
-													<div className='text-[28px] lg:text-[30px] font-medium'>
-														Світлана
+													<div className={`${styleName}`}>Світлана</div>
+													<div className={`${styleProf}`}>
+														нумізмат, історик
 													</div>
-													<div className='leading-[30px] text-[23px] lg:text-[25px] '>нумізмат, історик</div>
 												</div>
 											</Link>
 											<div className='text-white text-[25px] my-[10px]'>
-												<div className='mt-[20px] leading-[26px] mb:leading-[31px] text-[18px] lg:text-[23px]'>
+												<div className={`${styleDescr}`}>
 													Завдяки розпаковці відчула як складне презентувати
 													просто. Віка є вираженням того як жити сьогодні:
 													будувати проект з найменшими витратами, пояснювати
@@ -187,16 +197,14 @@ export default function Reviews() {
 										>
 											<Image
 												src='/woman.png'
-												className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+												className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 												alt='profile'
 												width={100}
 												height={100}
 											/>
-											<div className='text-white text-[25px] my-[10px]'>
-												<div className='text-[28px] lg:text-[30px] font-medium'>
-													Маргарита Січкарь
-												</div>
-												<div className='leading-[30px] text-[23px] lg:text-[25px] '>
+											<div className='text-white text-[23px] my-[10px]'>
+												<div className={`${styleName}`}>Маргарита Січкарь</div>
+												<div className={`${styleProf}`}>
 													блогерка, книжкова продюсерка, авторка освітніх курсів
 													для авторів
 												</div>
@@ -217,14 +225,17 @@ export default function Reviews() {
 										>
 											<Image
 												src='/woman.png'
-												className='mr-[20px] lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]'
+												className='md:mr-[20px] mr-[10px] lg:w-[100px] lg:h-[100px] md:w-[60px] md:h-[60px] w-[50px] h-[50px]'
 												alt='profile'
 												width={100}
 												height={100}
 											/>
-											<div className='text-white text-[25px] my-[10px]'>
-												<div className='text-[28px] lg:text-[30px] font-medium'> Наталія</div>
-												<div className='leading-[30px] text-[23px] lg:text-[25px] '>
+											<div className='text-white text-[23px] my-[10px]'>
+											<div className={`${styleName}`}>
+													
+													Наталія
+												</div>
+												<div className={`${styleProf}`}>
 													духовний наставник, авторка освітніх продуктів
 												</div>
 											</div>
