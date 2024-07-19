@@ -11,7 +11,7 @@ import {
 
 const styleDescr = `mt-[20px] leading-[26px] mb:leading-[31px] text-[16px] md:text-[18px] lg:text-[23px]`
 const styleName = `text-[23px] md:text-[28px] lg:text-[28px] font-medium`
-const styleProf = `leading-[25px] md:leading-[30px] text-[18px] md:text-[23px] lg:text-[25px] `
+const styleProf = `leading-[21px] md:leading-[30px] text-[18px] md:text-[23px] lg:text-[25px] `
 
 export default function Reviews() {
 	return (

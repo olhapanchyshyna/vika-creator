@@ -31,7 +31,7 @@ const AccordionTrigger = React.forwardRef<
 			{...props}
 		>
 			{children}
-			<ChevronDown className='h-10 w-10 shrink-0 transition-transform duration-200 rounded-full border-[#e1a421] border-2 !ml-[30px]' />
+			<ChevronDown className='md:h-10 md:w-10 h-8 w-8 shrink-0 transition-transform duration-200 rounded-full border-[#e1a421] border-2 !ml-[30px]' />
 		</AccordionPrimitive.Trigger>
 	</AccordionPrimitive.Header>
 ))
