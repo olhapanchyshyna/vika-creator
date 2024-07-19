@@ -13,7 +13,7 @@ export default function Faq() {
 			<div className='container p-0'>
 				<MainTitle
 					text='ВІДПОВІДІ НА ВАШІ ПИТАННЯ'
-					className='text-center mb-[100px] text-[#e1a421] '
+					className='text-center mb-[50px] lg:mb-[100px] text-[#e1a421] '
 				/>
 				<div className='flex flex-col justify-center max-w-[1100px] m-auto'>
 					<Accordion type='single' collapsible>
