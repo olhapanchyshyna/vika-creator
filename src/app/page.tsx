@@ -23,7 +23,7 @@ export default function Home() {
 			<MyActivities />
 			<Course />
 			<Program />
-			{/* <ExpertsReviews /> */}
+			<ExpertsReviews />
 			<Reviews />
 			{/* <Faq /> */}
 			{/* <CourseFor /> */}

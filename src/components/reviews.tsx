@@ -16,7 +16,7 @@ const styleProf = `leading-[25px] md:leading-[30px] text-[18px] md:text-[23px] l
 export default function Reviews() {
 	return (
 		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
-			<div className='container flex flex-col items-center'>
+			<div className='container flex flex-col items-center p-0'>
 				<MainTitle
 					text='Результати клієнтів'
 					className='text-center mb-[50px] lg:mb-[100px]'
