@@ -10,7 +10,7 @@ type TimeRemainingType = {
 }
 
 const Timer = () => {
-	const countdownDate = new Date('July 20, 2024 00:00:00 GMT+00:00').getTime()
+	const countdownDate = new Date('July 25, 2024 00:00:00 GMT+00:00').getTime()
 	const [timeRemaining, setTimeRemaining] = useState<TimeRemainingType>()
 
 	useEffect(() => {
@@ -48,28 +48,28 @@ const Timer = () => {
 	return (
 		<div className='flex'>
 			<div className='mr-[10px]'>
-				<div className='w-[100px] bg-white text-center h-[100px] rounded-xl text-[50px] items-center flex justify-center '>
+				<div className='xl:w-[100px] lg:w-[80px] w-[60px] bg-white text-center xl:h-[100px] lg:h-[80px] h-[60px] rounded-xl xl:text-[50px] lg:text-[40px] text-[30px] items-center flex justify-center '>
 					{timeRemaining.days}
 				</div>
-				<div className='text-center text-[#e1a421] mt-[10px] font-bold'>Днів</div>
+				<div className='text-center text-[#e1a421] lg:mt-[10px] mt-[5px] font-bold'>Днів</div>
 			</div>
 			<div className='mr-[10px]'>
-				<div className='w-[100px] bg-white text-center h-[100px] rounded-xl text-[50px] items-center flex justify-center '>
+				<div className='xl:w-[100px] lg:w-[80px] w-[60px] bg-white text-center xl:h-[100px] lg:h-[80px] h-[60px] rounded-xl xl:text-[50px] lg:text-[40px] text-[30px] items-center flex justify-center '>
 					{timeRemaining.hours}
 				</div>
-				<div className='text-center text-[#e1a421]  mt-[10px] font-bold'>Годин</div>
+				<div className='text-center text-[#e1a421]  lg:mt-[10px] mt-[5px] font-bold'>Годин</div>
 			</div>
 			<div className='mr-[10px]'>
-				<div className='w-[100px] bg-white text-center h-[100px] rounded-xl text-[50px] items-center flex justify-center '>
+				<div className='xl:w-[100px] lg:w-[80px] w-[60px] bg-white text-center xl:h-[100px] lg:h-[80px] h-[60px] rounded-xl xl:text-[50px] lg:text-[40px] text-[30px] items-center flex justify-center '>
 					{timeRemaining.minutes}
 				</div>
-				<div className='text-center text-[#e1a421]  mt-[10px] font-bold'>Хвилин</div>
+				<div className='text-center text-[#e1a421]  lg:mt-[10px] mt-[5px] font-bold'>Хвилин</div>
 			</div>
 			<div className='mr-[10px]'>
-				<div className='w-[100px] bg-white text-center h-[100px] rounded-xl text-[50px] items-center flex justify-center '>
+				<div className='xl:w-[100px] lg:w-[80px] w-[60px] bg-white text-center xl:h-[100px] lg:h-[80px] h-[60px] rounded-xl xl:text-[50px] lg:text-[40px] text-[30px] items-center flex justify-center '>
 					{timeRemaining.seconds}
 				</div>
-				<div className='text-center text-[#e1a421]  mt-[10px] font-bold'>Секунд</div>
+				<div className='text-center text-[#e1a421]  lg:mt-[10px] mt-[5px] font-bold'>Секунд</div>
 			</div>
 		</div>
 	)

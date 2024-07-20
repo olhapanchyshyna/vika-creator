@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
 	return (
-		<section className='bg-white py-[40px] lg:py-[60px] 2xl:py-[80px] lg:px-[60px] px-[20px]'>
+		<section className='bg-white py-[40px] lg:py-[60px] 2xl:py-[80px] lg:px-[60px] px-[20px] -mt-[1px]'>
 			<div className='container flex flex-col lg:flex-row justify-between items-center p-0'>
 				<div>
 					<MediaLinks />

@@ -12,6 +12,7 @@ import Program from '@/components/program'
 import Reviews from '@/components/reviews'
 import Faq from '@/components/faq'
 import BuyCourse from '@/components/buy-course'
+import Popup from '@/components/popup'
 
 
 export default function Home() {
@@ -26,9 +27,10 @@ export default function Home() {
 			<ExpertsReviews />
 			<Reviews />
 			<Faq />
-			{/* <CourseFor /> */}
-			{/* <BuyCourse/> */}
+			<CourseFor />
+			<BuyCourse/>
 			<Footer/>
+			{/* <Popup/> */}
 		</main>
 	)
 }

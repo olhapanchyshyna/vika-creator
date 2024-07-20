@@ -2,19 +2,19 @@ import MainTitle from '@/components/main-title'
 
 export default function page() {
 	return (
-		<section className='text-[25px] container text-white my-[100px]'>
+		<section className='text-[25px] container text-white my-[50px] lg:my-[100px]'>
 			<MainTitle
 				text='ДОГОВІР ПРО НАДАННЯ ПЛАТНИХ ПОСЛУГ №1'
-				className='mb-[20px] text-center !leading-[68px]'
+				className='mb-[20px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
 			<div className='text-[25px] text-center mb-[100px]'>
 				на умовах публічної оферти
 			</div>
 			<div className='flex justify-between text-[30px]'>
-				<div>м. Київ</div>
-				<div>20.07.2024 року</div>
+			<div className='text-[20px] lg:text-[28px]'>м. Київ</div>
+			<div className='text-[20px] lg:text-[28px]'>20.07.2024 року</div>
 			</div>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<div>
 					<strong>ВИКОНАВЕЦЬ:</strong>
 					<br />
@@ -23,18 +23,15 @@ export default function page() {
 				<div>
 					<strong>ЗАМОВНИК: </strong>
 					<br />
-					Фізична особа, яка звернулася у встановленому цим Договором порядку до
-					Виконавця з метою отримання платних консультаційних послуг з питань
-					харчування, керуючись ст. 633, 641, 642 Цивільного кодексу України,
-					уклали цей Договір про надання платних послуг (далі — Договір) про
-					таке:
+					Фізична особа, яка звернулася у встановленому цим Договором порядку до Виконавця з метою отримання платних консультаційних послуг, уклали цей Договір про надання платних послуг (далі — Договір) про таке:
+
 				</div>
 			</div>
 			<MainTitle
 				text='1. ОСНОВНІ ПОНЯТТЯ ТА ВИЗНАЧЕННЯ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>Оферта</strong>
 				<br />
 				— публічна пропозиція Виконавця, опублікована на офіційному веб-сайті
@@ -117,13 +114,11 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='2. ПРЕДМЕТ ДОГОВОРУ.'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
-				<strong>2.1.</strong> Виконавець надає Замовнику консультаційні послуги
-				з питань харчування, що обумовлені в Додатку згідно обраного Замовником
-				Пакету, а Замовник зобов’язується своєчасно їх оплачувати відповідно до
-				умов цього Договору та вимог чинного законодавства України.
+			<div className='lg:text-[25px] text-[18px]'>
+				<strong>2.1.</strong>Виконавець надає Замовнику консультаційні послуги згідно обраного Замовником Пакету, а Замовник зобов’язується своєчасно їх оплачувати відповідно до умов цього Договору та вимог чинного законодавства України.
+
 				<br />
 				<strong>2.2.</strong> Послуги надаються у формі усних консультацій.
 				Виконавець надає Замовнику послуги, керуючись своїм професійним
@@ -142,13 +137,7 @@ export default function page() {
 				бути надані. В будь-якому випадку відповідальність, додаткові витрати та
 				ризики щодо оплати послуг неактуального Акцепту, несе сам Замовник.
 				<br />
-				<strong>2.5.</strong> Форма надання послуг: усні
-				консультації/заняття/сесії/ трансляцій/вебінари/авто вебінари
-				дистанційно з використанням інформаційно- телекомунікативних систем
-				шляхом відео або аудіо зв’язка, в т.ч. через спеціальні платформи або
-				месенджери (Viber, Skype, PruffMe, Zoom, тощо). Форма надання послуг
-				заздалегідь повідомляється Замовнику. Доступ до ресурсів надається
-				Виконавцем завчасно.
+				<strong>2.5.</strong> Форма надання послуг: усні консультації/заняття/сесії/ трансляцій/курси в записі, в т.ч. через спеціальні платформи або месенджери (Viber, Skype, PruffMe, Zoom, тощо). Форма надання послуг заздалегідь повідомляється Замовнику. Доступ до ресурсів надається Виконавцем завчасно.
 				<br />
 				<strong>2.6.</strong> У випадку відсутності Замовника на
 				консультації/занятті не з вини Виконавця, кошти не повертаються та
@@ -159,9 +148,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='3. ПОРЯДОК УКЛАДАННЯ ДОГОВОРУ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>3.1.</strong> Всі умови Договору та його Додатків є
 				обов’язковими для Замовника та Виконавця після Акцепту Замовником.
 				<br />
@@ -205,9 +194,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='4. ПОРЯДОК НАДАННЯ ТА ОТРИМАННЯ ПОСЛУГ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>4.1.</strong> Умовами надання Послуг є: 4.1.1. ознайомлення та
 				повна згода Замовника з умовами цього Договору; 4.1.2. оформлення
 				Замовником згоди про приєднання до даного Договору із зазначенням
@@ -323,18 +312,18 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='5. СТРОК НАДАННЯ ПОСЛУГ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>5.1.</strong> Строк надання послуг вказаний у Додатку або на
 				інтернет ресурсі/сайті Виконавця.
 				<br />
 			</div>
 			<MainTitle
 				text='6. ЦІНА ТА ОПЛАТА ПОСЛУГ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>6.1.</strong> Замовник здійснює оплату послуг Виконавця на
 				підставі виставленого Виконавцем Рахунку після ознайомлення з Додатком
 				шляхом перерахування коштів на банківський рахунок Виконавця або у
@@ -375,9 +364,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='7. ПРАВА ТА ОБОВ’ЯЗКИ ВИКОНАВЦЯ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>7.1.</strong> Виконавець має право: 7.1.1. вносити зміни та
 				доповнення до умов Договору та додатків до нього; повідомлення про такі
 				зміни та доповнення публікуються на офіційному сайті Виконавця не менш,
@@ -401,9 +390,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='8. ПРАВА ТА ОБОВ’ЯЗКИ ЗАМОВНИКА'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>8.1.</strong> Замовник має право на: 8.1.1. повне і своєчасне
 				отримання замовлених Послуг належної якості; 8.1.2. отримання від
 				Виконавця відомостей про здійснені Послуги у порядку, встановленому
@@ -438,9 +427,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='9. ВІДПОВІДАЛЬНІСТЬ СТОРІН ТА ПОРЯДОК ВИРІШЕННЯ СПОРІВ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>9.1.</strong> Виконавець та Замовник несуть відповідальність за
 				порушення умов цього Договору відповідно до цього Договору та чинного
 				законодавства України.
@@ -524,9 +513,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='10. ПОЛІТИКА ВІДМОВИ ВІД ПОСЛУГ.'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>10.1.</strong> Відмова від Договору можлива протягом
 				чотирнадцяти (14) календарних днів з дати Акцепту (оплати) у разі
 				раннього бронювання послуг ( 14 і більше днів до дати надання послуг)
@@ -574,9 +563,9 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='11. СТРОК ДІЇ ДОГОВОРУ'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				<strong>11.1.</strong> Договір набуває чинності з моменту Акцепту
 				Замовником.
 				<br />
@@ -598,17 +587,17 @@ export default function page() {
 			</div>
 			<MainTitle
 				text='12. МІСЦЕЗНАХОДЖЕННЯ ТА РЕКВІЗИТИ ВИКОНАВЦЯ:'
-				className='text-[#E1A421] mb-[30px] mt-[30px] text-center !leading-[68px]'
+				className='text-[#E1A421] lg:mb-[30px] mb-[15px] mt-[30px] text-center !lg:leading-[68px] md:leading-[48px] leading-[36px]'
 			/>
-			<div>
+			<div className='lg:text-[25px] text-[18px]'>
 				ФОП Арушанян Гаяне Рубенівна Місцезнаходження: місто Запоріжжя, вул.
-				Козацької Чайки 
-				<br/>
+				Козацької Чайки
+				<br />
 				Код ЕДРПОУ: 3264416107 Адреса для листування: e-mail
-				produce.365z@gmail.com 
-				<br/>
-				Реквізити для оплати:
-				UA133052990000026005045032729 Назва банку: АТ КБ «ПриватБанк»
+				produce.365z@gmail.com
+				<br />
+				Реквізити для оплати: UA133052990000026005045032729 Назва банку: АТ КБ
+				«ПриватБанк»
 			</div>
 		</section>
 	)
