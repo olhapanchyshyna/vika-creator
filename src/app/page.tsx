@@ -13,6 +13,7 @@ import Reviews from '@/components/reviews'
 import Faq from '@/components/faq'
 import BuyCourse from '@/components/buy-course'
 import Popup from '@/components/popup'
+import HowCourseGoes from '@/components/how-course-goes'
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
 			<Program />
 			<ExpertsReviews />
 			<Reviews />
+			<HowCourseGoes/>
 			<Faq />
 			<CourseFor />
 			<BuyCourse/>

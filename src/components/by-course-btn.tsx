@@ -21,6 +21,7 @@ type ByCourseBtn = {
 const ByCourseBtn = ({ text, className }: ByCourseBtn) => {
 	const [phone, setPhone] = useState('')
 	const [email, setEmail] = useState('')
+	const [telegram, setTelegram] = useState('')
 	const [isSubmitting, setIsSubmitting] = useState(false)
 
 	const handleSubmit = async (event: FormEvent) => {
@@ -33,7 +34,7 @@ const ByCourseBtn = ({ text, className }: ByCourseBtn) => {
 				headers: {
 					'Content-Type': 'application/json',
 				},
-				body: JSON.stringify({ phone, email }),
+				body: JSON.stringify({ phone, email, telegram }),
 			})
 
 			if (response.ok) {
@@ -87,6 +88,16 @@ const ByCourseBtn = ({ text, className }: ByCourseBtn) => {
 							className='mb-[15px]  md:w-[300px] w-[200px]'
 							value={email}
 							onChange={e => setEmail(e.target.value)}
+							disabled={isSubmitting}
+						/>
+					</div>
+					<div>
+						<Input
+							id='telegram'
+							placeholder='Ваш telegram'
+							className='mb-[15px]  md:w-[300px] w-[200px]'
+							value={telegram}
+							onChange={e => setTelegram(e.target.value)}
 							disabled={isSubmitting}
 						/>
 					</div>

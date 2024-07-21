@@ -28,13 +28,13 @@ const sendToTelegram = async (message: string) => {
 
 export async function POST(req: NextRequest) {
   try {
-    const { phone, email } = await req.json();
+    const { phone, email, telegram } = await req.json();
 
-    if (!phone || !email) {
-      return NextResponse.json({ message: "Phone and email are required" }, { status: 400 });
-    }
+    // if (!phone || !email || !telegram) {
+    //   return NextResponse.json({ message: "Phone and email are required" }, { status: 400 });
+    // }
 
-    const message = `Данні з форми:\nТелефон: ${phone}\nEmail: ${email}`;
+    const message = `Данні з форми:\nТелефон: ${phone}\nEmail: ${email} \nТелеграм акаунт: ${telegram} `;
 
     await sendToTelegram(message);
     return NextResponse.json({ message: "Data sent to Telegram successfully" });

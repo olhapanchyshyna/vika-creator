@@ -20,7 +20,7 @@ const Popup = () => {
 
 	return (
 		<div className='fixed top-0 left-0 w-full  h-full flex items-center justify-center bg-black bg-opacity-50'>
-			<div className='relative bg-[#e1a421] p-4 rounded shadow-lg md:w-96 w-[300px]'>
+			<div className='relative bg-[#e1a421] p-6 rounded shadow-lg md:w-[650px] w-[300px]'>
 				<button
 					onClick={() => {
 						setVisible(false)
@@ -30,8 +30,13 @@ const Popup = () => {
 				>
 					<Image src='/close.png' alt='close' width={25} height={25} />
 				</button>
-				<h2 className='text-xl font-bold mb-4 '>Отримай подарунок!</h2>
-				<p>Як упаковати блог в Інстаграм з нуля — покроковий гайд</p>
+				<h2 className='md:text-[28px] text-[20px] font-bold mb-4 mr-[15px]'>
+					{' '}
+					Зареєструйся на курс та отримай ПОДАРУНОК!
+				</h2>
+				<p className='md:text-[25px] text-[18px]'>
+					Як упаковати блог в Інстаграм з нуля — покроковий гайд
+				</p>
 			</div>
 		</div>
 	)
