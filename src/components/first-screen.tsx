@@ -1,12 +1,9 @@
 import MainTitle from '@/components/main-title'
 import Image from 'next/image'
 import Link from 'next/link'
+import ByCourseBtn from './by-course-btn'
 
 export default function FirstScreen() {
-	type Url = string
-
-	const PAYMENTLINK: Url = process.env.PAYMENTLINK as Url
-
 	return (
 		<section className='lg:relative container pt-[50px] lg:py-[60px] px-[20px] xl:py-[80px] bg-cover bg-no-repeat bg-center flex-col lg:flex-row flex text-white items-center '>
 			<div className='lg:w-[600px] order-2 lg:order-none'>
@@ -30,16 +27,12 @@ export default function FirstScreen() {
 				<div className='sm:text-[23px] text-[18px] xl:text-[30px] my-[20px] max-w-[500px] xl:max-w-[600px]'>
 					Знайди свої сильні сторони та почни заробляти на них
 				</div>
-				<button className='rounded-lg bg-[#E1A421] mt-[30px] xl:mt-[60px] xl:w-[240px] w-[180px] py-[15px] xl:py-[20px] px-[10px] xl:px-[30px] text-center text-[30px] lg:text-[34px] xl:text-[40px]'>
-					<Link href={PAYMENTLINK} target='_blank'>
-						280 грн
-					</Link>
-				</button>
+				<ByCourseBtn text='280 грн' className='bg-[#E1A421] text-white mt-[30px] xl:mt-[60px] xl:w-[240px] w-[180px] py-[15px] xl:py-[20px] !pointer-events-nonepx-[10px] xl:px-[30px] text-center text-[30px] lg:text-[34px] xl:text-[40px]'/>
+
 				<div className='lg:text-[20px] text-[18px] xl:text-[25px] lg:w-[500px] mt-[40px] mb-[40px] lg:mb-0'>
 					ПОДАРУНОК
 					<br />
-					Знайди свої сильні сторони та почни заробляти на них
-					{/* <span className='italic text-[25px]'> Бонус - робочий зошит</span> */}
+					Як упаковати блог в Інстаграм з нуля — покроковий гайд
 				</div>
 			</div>
 		</section>

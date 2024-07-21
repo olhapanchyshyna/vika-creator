@@ -30,7 +30,7 @@ export default function Home() {
 			<CourseFor />
 			<BuyCourse/>
 			<Footer/>
-			{/* <Popup/> */}
+			<Popup/>
 		</main>
 	)
 }

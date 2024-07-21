@@ -31,7 +31,7 @@ const Popup = () => {
 					<Image src='/close.png' alt='close' width={25} height={25} />
 				</button>
 				<h2 className='text-xl font-bold mb-4 '>Отримай подарунок!</h2>
-				<p>Придбай курс та отримай подарунок.</p>
+				<p>Як упаковати блог в Інстаграм з нуля — покроковий гайд</p>
 			</div>
 		</div>
 	)
