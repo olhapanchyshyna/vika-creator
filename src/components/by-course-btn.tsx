@@ -60,20 +60,20 @@ const ByCourseBtn = ({ text, className }: ByCourseBtn) => {
 			<DialogTrigger className={cn(`rounded-xl  cursor-pointer `, className)}>
 				{text}
 			</DialogTrigger>
-			<DialogContent>
+			<DialogContent className='md:w-[600px] w-[300px]'>
 				<DialogHeader>
 					<DialogTitle className='text-center'>
 						Заповніть форму та отримайте подарунок
 					</DialogTitle>
 				</DialogHeader>
 				<form
-					className='w-[400px] flex flex-col items-center m-auto'
+					className='w-[250px] md:w-[400px] flex flex-col items-center m-auto'
 					onSubmit={handleSubmit}
 				>
 					<div>
 						<Input
 							id='phone'
-							className='mb-[15px] w-[300px]'
+							className='mb-[15px] md:w-[300px] w-[200px]'
 							placeholder='Ваш телефон'
 							value={phone}
 							onChange={e => setPhone(e.target.value)}
@@ -84,7 +84,7 @@ const ByCourseBtn = ({ text, className }: ByCourseBtn) => {
 						<Input
 							id='email'
 							placeholder='Ваш E-mail'
-							className='mb-[15px] w-[300px]'
+							className='mb-[15px]  md:w-[300px] w-[200px]'
 							value={email}
 							onChange={e => setEmail(e.target.value)}
 							disabled={isSubmitting}

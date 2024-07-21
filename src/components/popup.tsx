@@ -19,8 +19,8 @@ const Popup = () => {
 	if (!visible) return null
 
 	return (
-		<div className='fixed rounded-2xl top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50'>
-			<div className='relative bg-[#e1a421] p-4 rounded shadow-lg w-96'>
+		<div className='fixed top-0 left-0 w-full  h-full flex items-center justify-center bg-black bg-opacity-50'>
+			<div className='relative bg-[#e1a421] p-4 rounded shadow-lg md:w-96 w-[300px]'>
 				<button
 					onClick={() => {
 						setVisible(false)
