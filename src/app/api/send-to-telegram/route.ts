@@ -30,11 +30,11 @@ export async function POST(req: NextRequest) {
   try {
     const { phone, email, telegram } = await req.json();
 
-    // if (!phone || !email || !telegram) {
-    //   return NextResponse.json({ message: "Phone and email are required" }, { status: 400 });
-    // }
+    if (!phone && !email && !telegram) {
+      return NextResponse.json({ message: "At least one field (phone, email, or telegram) must be filled" }, { status: 400 });
+    }
 
-    const message = `Данні з форми:\nТелефон: ${phone}\nEmail: ${email} \nТелеграм акаунт: ${telegram} `;
+    const message = `Данні з форми "ЯК ЕКСПЕРТУ ЗНАЙТИ СВІЙ НАПРЯМОК":\nТелефон: ${phone}\nEmail: ${email} \nТелеграм акаунт: ${telegram} `;
 
     await sendToTelegram(message);
     return NextResponse.json({ message: "Data sent to Telegram successfully" });
